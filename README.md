@@ -1,2 +1,2 @@
-# fab-pcb-lib
+# fablabs-kicad-library
 FabLab global KiCAD library for all PCB projects!
