@@ -218,4 +218,3 @@ If you'd like, I can also:
 
 - Add a `CONTRIBUTING.md` with merge/branching guidelines and commit message recommendations.
 - Create a lightweight script that checks library consistency (missing footprint link checks).
->>>>>>> Stashed changes
