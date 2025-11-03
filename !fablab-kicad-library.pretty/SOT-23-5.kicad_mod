@@ -1,0 +1,226 @@
+(footprint "SOT-23-5"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SOT, 5 Pin (JEDEC MO-178 Var AA https://www.jedec.org/document_search?search_api_views_fulltext=MO-178), generated with kicad-footprint-generator ipc_gullwing_generator.py")
+	(tags "SOT TO_SOT_SMD")
+	(property "Reference" "REF**"
+		(at 0 -3.2 0)
+		(layer "F.SilkS")
+		(uuid "a29551fb-cff6-4a84-9f9f-abf41854b093")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SOT-23-5"
+		(at 0 2.4 0)
+		(layer "F.Fab")
+		(uuid "0b179eb4-40d3-4dc6-9261-73443353746d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f835dff4-60db-4956-8543-0903f77fd337")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "125338bc-b148-4168-b910-069c454e7dc7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 0 -1.56)
+		(end -0.8 -1.56)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c0e0fb5a-c19d-431d-b775-8e574cc7af35")
+	)
+	(fp_line
+		(start 0 -1.56)
+		(end 0.8 -1.56)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0e4dc29a-0514-474c-b8f2-8b620007f922")
+	)
+	(fp_line
+		(start 0 1.56)
+		(end -0.8 1.56)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6e0ddac5-5f28-4010-8875-ac06e4334287")
+	)
+	(fp_line
+		(start 0 1.56)
+		(end 0.8 1.56)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b7173944-1daa-4924-a0e2-fe281db26da1")
+	)
+	(fp_poly
+		(pts
+			(xy 1.3 1.5) (xy 1.5 1.7) (xy 1.1 1.7) (xy 1.3 1.5)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "c9ee691b-087c-4a88-8e78-08c07d4bf116")
+	)
+	(fp_rect
+		(start -1.9 -1.6)
+		(end 1.9 1.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "79f792b7-b5b7-4dc7-8e2f-172412fe02fa")
+	)
+	(fp_line
+		(start -0.8 -1.45)
+		(end 0.8 -1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "66ab45ef-3181-4134-9453-61bd445f8826")
+	)
+	(fp_line
+		(start -0.8 1.45)
+		(end -0.8 -1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c74d6a92-301a-4561-bffb-a252c6771c4b")
+	)
+	(fp_line
+		(start 0.4 1.45)
+		(end -0.8 1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "131ef935-749d-4c3a-882e-0fb66ce325f1")
+	)
+	(fp_line
+		(start 0.8 -1.45)
+		(end 0.8 1.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cd3e7478-153a-484f-883f-980a21246deb")
+	)
+	(fp_line
+		(start 0.8 1.05)
+		(end 0.4 1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "19734420-1c2f-453e-8ee2-b4cad95857cb")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "fa4986e5-4e84-4a61-99d8-f4755b057031")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.06)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 1.1375 0.95 180)
+		(size 1.325 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "3de9f697-48cf-4bd2-9b9d-8ce4232a94ee")
+	)
+	(pad "2" smd roundrect
+		(at 1.1375 0 180)
+		(size 1.325 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "79dffe46-380a-47c0-be9e-fb91c2003fab")
+	)
+	(pad "3" smd roundrect
+		(at 1.1375 -0.95 180)
+		(size 1.325 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "339254cc-9ea9-47a4-aed6-9d912d461d15")
+	)
+	(pad "4" smd roundrect
+		(at -1.1375 -0.95 180)
+		(size 1.325 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "6f28e2ae-a2f1-4f58-9837-3dc246f0335c")
+	)
+	(pad "5" smd roundrect
+		(at -1.1375 0.95 180)
+		(size 1.325 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "d5090202-2054-40bf-b65e-e9534ea2e30d")
+	)
+	(embedded_fonts no)
+	(model "${FABLAB_KICAD_LIBRARY}/!fablab-kicad-library.3dshapes/SOT-23-5.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,0 +1,157 @@
+(footprint "C_01005_0402M"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Capacitor SMD 01005 (0402 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.vishay.com/docs/20056/crcw01005e3.pdf), generated with kicad-footprint-generator")
+	(tags "capacitor")
+	(property "Reference" "REF**"
+		(at 0 -1.3 0)
+		(layer "F.SilkS")
+		(uuid "17388bb8-20cd-43b9-aec8-805787f369bd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "C_01005_0402M"
+		(at 0 1 0)
+		(layer "F.Fab")
+		(uuid "89b1d237-fd86-47d2-9f4f-2834a5cb29e3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "20898191-159d-4e4c-9d73-212c87886d5d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ac55f2b6-9200-4fb7-91df-8515f76d9096")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -0.55 -0.25)
+		(end 0.55 0.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "b7c78d2e-29c6-44f3-a7a2-837548bd07e8")
+	)
+	(fp_line
+		(start -0.2 -0.1)
+		(end 0.2 -0.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f9c1f41d-d800-4814-9aa8-2d6a08be0342")
+	)
+	(fp_line
+		(start -0.2 0.1)
+		(end -0.2 -0.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2be5d047-63fe-4eae-99b3-c5225d7e5dfc")
+	)
+	(fp_line
+		(start 0.2 -0.1)
+		(end 0.2 0.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "eadd1f18-9775-4862-ad1f-de4f521cd7ea")
+	)
+	(fp_line
+		(start 0.2 0.1)
+		(end -0.2 0.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "07347bd7-70d5-4220-8499-b5a123855d51")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -0.62 0)
+		(layer "F.Fab")
+		(uuid "74a8fc73-5dfa-48a0-bf03-bf80858a2e1e")
+		(effects
+			(font
+				(size 0.25 0.25)
+				(thickness 0.04)
+			)
+		)
+	)
+	(pad "" smd roundrect
+		(at -0.275 0)
+		(size 0.27 0.27)
+		(layers "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "00095a5e-077f-4f94-8131-4c2b9c9b5533")
+	)
+	(pad "" smd roundrect
+		(at 0.275 0)
+		(size 0.27 0.27)
+		(layers "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "a9f94252-8a3d-48aa-903f-14acb64ba1b1")
+	)
+	(pad "1" smd roundrect
+		(at -0.25 0)
+		(size 0.4 0.3)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "13aeccf0-d93c-4f84-b12f-d28350665571")
+	)
+	(pad "2" smd roundrect
+		(at 0.25 0)
+		(size 0.4 0.3)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "cc1f799e-25cd-4c90-aed1-b8160895804c")
+	)
+	(embedded_fonts no)
+	(model "${FABLAB_KICAD_LIBRARY}/!fablab-kicad-library.3dshapes/C_01005_0402M.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

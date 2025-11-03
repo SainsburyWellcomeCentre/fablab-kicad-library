@@ -1,7 +1,3 @@
-<<<<<<< Updated upstream
-# fablab-kicad-library
-FabLab global KiCAD library for all PCB projects!
-=======
 # FabLab Global KiCAD Library
 
 Welcome — this repository contains the shared KiCAD symbol, footprint and design-block libraries used by FabLab projects. This README will get you up and running, show how to add the libraries into KiCAD, and explain a simple, beginner-friendly Git workflow for contributing.
@@ -222,4 +218,3 @@ If you'd like, I can also:
 
 - Add a `CONTRIBUTING.md` with merge/branching guidelines and commit message recommendations.
 - Create a lightweight script that checks library consistency (missing footprint link checks).
->>>>>>> Stashed changes
