@@ -348,7 +348,7 @@
 		(uuid "d36e3749-cdea-4206-9623-05f075f912eb")
 	)
 	(embedded_fonts no)
-	(model "${FABLAB_KICAD_LIBRARY}/!fablab-kicad-library.3dshapes/Same_Sky_SJ-3523-SMT-TR.step"
+	(model "${FABLABS_KICAD_LIBRARY}/!fablabs-kicad-library.3dshapes/Same_Sky_SJ-3523-SMT-TR.step"
 		(offset
 			(xyz 0 5.95 3)
 		)

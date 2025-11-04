@@ -181,7 +181,7 @@
 		(uuid "44b86d1b-8a2f-4371-80bb-a97210aa4935")
 	)
 	(embedded_fonts no)
-	(model "${FABLAB_KICAD_LIBRARY}/!fablab-kicad-library.3dshapes/ECS-TXO-2016-33-120-TR.step"
+	(model "${FABLABS_KICAD_LIBRARY}/!fablabs-kicad-library.3dshapes/ECS-TXO-2016-33-120-TR.step"
 		(offset
 			(xyz 0 0 0)
 		)

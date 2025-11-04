@@ -195,7 +195,7 @@
 		(uuid "9fa795c1-d238-4f13-9d6c-c33b173f8392")
 	)
 	(embedded_fonts no)
-	(model "${FABLAB_KICAD_LIBRARY}/!fablab-kicad-library.3dshapes/acp3225.step"
+	(model "${FABLABS_KICAD_LIBRARY}/!fablabs-kicad-library.3dshapes/acp3225.step"
 		(offset
 			(xyz 35.25 -11.55 0.65)
 		)

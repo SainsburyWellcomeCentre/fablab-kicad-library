@@ -143,7 +143,7 @@
 		(uuid "e5908754-a90b-45cb-a006-1dcef2eac2ac")
 	)
 	(embedded_fonts no)
-	(model "${FABLAB_KICAD_LIBRARY}/!fablab-kicad-library.3dshapes/C_0201_0603M.step"
+	(model "${FABLABS_KICAD_LIBRARY}/!fablabs-kicad-library.3dshapes/C_0201_0603M.step"
 		(offset
 			(xyz 0 0 0)
 		)

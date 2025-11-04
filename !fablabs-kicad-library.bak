@@ -2830,7 +2830,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "!fablab-kicad-library:SOT-563"
+		(property "Footprint" "!fablabs-kicad-library:SOT-563"
 			(at 3.048 -19.812 0)
 			(effects
 				(font
@@ -5405,7 +5405,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "!fablab-kicad-library:Conn_PicoBlade_3P_SMD_RA"
+		(property "Footprint" "!fablabs-kicad-library:Conn_PicoBlade_3P_SMD_RA"
 			(at 0 0 0)
 			(effects
 				(font
@@ -5515,7 +5515,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "!fablab-kicad-library:ACP3225"
+		(property "Footprint" "!fablabs-kicad-library:ACP3225"
 			(at 0 -6.35 0)
 			(effects
 				(font
@@ -5625,7 +5625,7 @@
 				)
 			)
 		)
-		(property "Footprint" "!fablab-kicad-library:C_0201_0603M"
+		(property "Footprint" "!fablabs-kicad-library:C_0201_0603M"
 			(at 0.9652 -3.81 0)
 			(effects
 				(font
@@ -5735,7 +5735,7 @@
 				)
 			)
 		)
-		(property "Footprint" "!fablab-kicad-library:C_0201_0603M"
+		(property "Footprint" "!fablabs-kicad-library:C_0201_0603M"
 			(at 0.9652 -3.81 0)
 			(effects
 				(font
@@ -5845,7 +5845,7 @@
 				)
 			)
 		)
-		(property "Footprint" "!fablab-kicad-library:C_0402_1005M"
+		(property "Footprint" "!fablabs-kicad-library:C_0402_1005M"
 			(at 0.508 -11.176 0)
 			(effects
 				(font
@@ -5955,7 +5955,7 @@
 				)
 			)
 		)
-		(property "Footprint" "!fablab-kicad-library:C_0402_1005M"
+		(property "Footprint" "!fablabs-kicad-library:C_0402_1005M"
 			(at 0.9652 -3.81 0)
 			(effects
 				(font
@@ -6065,7 +6065,7 @@
 				)
 			)
 		)
-		(property "Footprint" "!fablab-kicad-library:C_0402_1005M"
+		(property "Footprint" "!fablabs-kicad-library:C_0402_1005M"
 			(at 0.9652 -3.81 0)
 			(effects
 				(font
@@ -6175,7 +6175,7 @@
 				)
 			)
 		)
-		(property "Footprint" "!fablab-kicad-library:C_0603_1608M"
+		(property "Footprint" "!fablabs-kicad-library:C_0603_1608M"
 			(at 0 -11.176 0)
 			(effects
 				(font
@@ -6285,7 +6285,7 @@
 				)
 			)
 		)
-		(property "Footprint" "!fablab-kicad-library:C_0603_1608M"
+		(property "Footprint" "!fablabs-kicad-library:C_0603_1608M"
 			(at 0 -11.43 0)
 			(effects
 				(font
@@ -6395,7 +6395,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "!fablab-kicad-library:DC-005"
+		(property "Footprint" "!fablabs-kicad-library:DC-005"
 			(at 0 -19.304 0)
 			(effects
 				(font
@@ -6504,7 +6504,7 @@
 				)
 			)
 		)
-		(property "Footprint" "!fablab-kicad-library:C_0603_1608M"
+		(property "Footprint" "!fablabs-kicad-library:C_0603_1608M"
 			(at -1.778 0 90)
 			(effects
 				(font

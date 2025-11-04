@@ -270,7 +270,7 @@
 		(uuid "c9623791-5904-4801-a91b-71c359a8d168")
 	)
 	(embedded_fonts no)
-	(model "${FABLAB_KICAD_LIBRARY}/!fablab-kicad-library.3dshapes/SOT-563.step"
+	(model "${FABLABS_KICAD_LIBRARY}/!fablabs-kicad-library.3dshapes/SOT-563.step"
 		(offset
 			(xyz 0 0 0)
 		)

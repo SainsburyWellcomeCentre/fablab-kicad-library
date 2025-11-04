@@ -274,7 +274,7 @@
 		(uuid "7a4da2b1-c8e7-4e34-b388-fc25406fe46b")
 	)
 	(embedded_fonts no)
-	(model "${FABLAB_KICAD_LIBRARY}/!fablab-kicad-library.3dshapes/Conn_PicoBlade_3P_SMD_RA.stp"
+	(model "${FABLABS_KICAD_LIBRARY}/!fablabs-kicad-library.3dshapes/Conn_PicoBlade_3P_SMD_RA.stp"
 		(offset
 			(xyz 0 3 0)
 		)

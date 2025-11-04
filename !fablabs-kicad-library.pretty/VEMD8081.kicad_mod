@@ -227,7 +227,7 @@
 		(uuid "deb4f068-aa69-4f45-a910-0c639810093d")
 	)
 	(embedded_fonts no)
-	(model "${FABLAB_KICAD_LIBRARY}/!fablab-kicad-library.3dshapes/VEMD808x.stp"
+	(model "${FABLABS_KICAD_LIBRARY}/!fablabs-kicad-library.3dshapes/VEMD808x.stp"
 		(offset
 			(xyz 0 0 0)
 		)
