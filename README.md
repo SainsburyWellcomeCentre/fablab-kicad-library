@@ -1,15 +1,15 @@
-# FabLab Global KiCAD Library
+# FabLabs Global KiCAD Library
 
-Welcome — this repository contains the shared KiCAD symbol, footprint and design-block libraries used by FabLab projects. This README will get you up and running, show how to add the libraries into KiCAD, and explain a simple, beginner-friendly Git workflow for contributing.
+Welcome — this repository contains the shared KiCAD symbol, footprint and design-block libraries used by FabLabs projects. This README will get you up and running, show how to add the libraries into KiCAD, and explain a simple, beginner-friendly Git workflow for contributing.
 
 The guide is written for Windows users (PowerShell), but the Git and KiCAD steps are the same on macOS or Linux except where noted.
 
 
 ## What you will find in this repo
 
-- `!fablab-kicad-library.kicad_sym` — symbol library file
-- `!fablab-kicad-library.pretty` — footprint collection
-- `!fablab-kicad-library.kicad_blocks` — design blocks library
+- `!fablabs-kicad-library.kicad_sym` — symbol library file
+- `!fablabs-kicad-library.pretty` — footprint collection
+- `!fablabs-kicad-library.kicad_blocks` — design blocks library
 - `docs/` — All supporting documentation resources including the images used in this README
 
 If you're new to KiCAD: the symbol library is for schematic symbols, footprints are for PCB land patterns, and design blocks are saved schematic/PCB snippets you can reuse.
@@ -19,7 +19,7 @@ If you're new to KiCAD: the symbol library is for schematic symbols, footprints 
 
 1. Install KiCAD and Git (see full steps below).
 2. Clone this repo to a folder you control.
-3. Configure a KiCAD library path to point at this repo clone with the name `FABLAB_KICAD_LIBRARY`.
+3. Configure a KiCAD library path to point at this repo clone with the name `FABLABS_KICAD_LIBRARY`.
 4. Add symbol, footprint and design-block libraries into KiCAD (Preferences → Manage ... Libraries).
 5. Contribute by using Git to create a branch at the start of your day, make small commits during the day, keep updated with the main branch, then push your branch.
 
@@ -41,13 +41,13 @@ Using GitHub Desktop (recommended for beginners):
 1. Open GitHub Desktop
 2. Go to File → Clone repository
 3. Select URL tab
-4. Enter: `https://github.com/SainsburyWellcomeCentre/fablab-kicad-library.git`
+4. Enter: `https://github.com/SainsburyWellcomeCentre/fablabs-kicad-library.git`
 5. Choose where to save it (e.g., `C:/git/SainsburyWellcomeCentre`)
 6. Click Clone
 
 Alternative: If you prefer the command line, open PowerShell in your chosen folder and run:
 ```powershell
-git clone https://github.com/SainsburyWellcomeCentre/fablab-kicad-library.git
+git clone https://github.com/SainsburyWellcomeCentre/fablabs-kicad-library.git
 ```
 
 **Tip:** Pin the folder to Quick Access in File Explorer for fast navigation (screenshot: `docs/images/library-quick-access.png`).
@@ -59,7 +59,7 @@ This allows your KiCAD installation to find the libraries inside your clone rega
 
 1. In KiCAD, go to Preferences → Configure Paths...
 2. Click the `+` button.
-3. Set `Name` to `FABLAB_KICAD_LIBRARY` and `Path` to the folder where you cloned this repository.
+3. Set `Name` to `FABLABS_KICAD_LIBRARY` and `Path` to the folder where you cloned this repository.
 4. Click OK.
 
 Example screenshot: `docs/images/configure-paths.png`.
@@ -69,9 +69,9 @@ Example screenshot: `docs/images/configure-paths.png`.
 
 Open the following dialogs in KiCAD and add the corresponding files from the repository using the folder button:
 
-- Preferences → Manage Symbol Libraries → Add existing library → select `!fablab-kicad-library.kicad_sym` (`docs/images/select-symbol-library.png`).
-- Preferences → Manage Footprint Libraries → Add existing library → select the `!fablab-kicad-library.pretty` folder (`docs/images/footprint-library.png`).
-- Preferences → Manage Design Blocks Libraries → Add existing library → select `!fablab-kicad-library.kicad_blocks` (`docs/images/design-blocks-library.png`).
+- Preferences → Manage Symbol Libraries → Add existing library → select `!fablabs-kicad-library.kicad_sym` (`docs/images/select-symbol-library.png`).
+- Preferences → Manage Footprint Libraries → Add existing library → select the `!fablabs-kicad-library.pretty` folder (`docs/images/footprint-library.png`).
+- Preferences → Manage Design Blocks Libraries → Add existing library → select `!fablabs-kicad-library.kicad_blocks` (`docs/images/design-blocks-library.png`).
 
 
 ## Step 5 — Keep your copy up-to-date
@@ -162,8 +162,8 @@ If you're unsure, ask in the PR comments or ping a maintainer — it's better to
 
 ## How to add a new component (recommended minimal checklist)
 
-1. Create or verify a footprint in `!fablab-kicad-library.pretty`.
-2. Add a symbol to `!fablab-kicad-library.kicad_sym` and link it to the footprint.
+1. Create or verify a footprint in `!fablabs-kicad-library.pretty`.
+2. Add a symbol to `!fablabs-kicad-library.kicad_sym` and link it to the footprint.
 3. (Optional) Create a design block showing the symbol + basic connections.
 4. Test in a sample schematic and PCB (place the footprint, check footprints' 3D models if available and DRC rule compatibility).
 5. Commit small changes with clear messages and push your branch. At the end of the day notify a maintainer that your branch is ready to merge.
@@ -191,7 +191,7 @@ Only authorized maintainers should perform merges into main.
 ## Troubleshooting
 
 KiCAD issues:
-- Can't find library after adding path: confirm `FABLAB_KICAD_LIBRARY` points exactly at the repo root and restart KiCAD.
+- Can't find library after adding path: confirm `FABLABS_KICAD_LIBRARY` points exactly at the repo root and restart KiCAD.
 - Missing footprint in PCB: ensure symbol's footprint field matches a footprint in the `.pretty` folder.
 
 GitHub Desktop issues:
