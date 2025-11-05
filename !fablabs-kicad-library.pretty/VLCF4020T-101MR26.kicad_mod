@@ -1,0 +1,197 @@
+(footprint "VLCF4020T-101MR26"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Inductor shielded")
+	(property "Reference" "REF**"
+		(at 0.95 -4.135 0)
+		(layer "F.SilkS")
+		(uuid "67ef4c0f-9a3c-4b20-92c6-31492a8b8837")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "VLCF4020T-101MR26"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "861f1464-7263-4f91-baab-9dc1f0f29ee3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "18df2e6b-9c78-46b2-8e48-a7a55bf81fd7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "82895be8-29b0-4d2f-a0c0-c4572b9d74f1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2 -0.3)
+		(end -2 0.3)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "aae759cc-9eaf-4153-8ef8-ebf1da0ecda5")
+	)
+	(fp_line
+		(start 2 -0.3)
+		(end 2 0.3)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0ecdf490-91cb-4db2-af65-edfe4d2de12d")
+	)
+	(fp_circle
+		(center -1.85 -2.35)
+		(end -1.75 -2.35)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "fdefabad-8ccf-4b54-a4bb-1f3f58e4fdff")
+	)
+	(fp_rect
+		(start -2.2 -2.4)
+		(end 2.2 2.4)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "20213f74-ea42-4d5b-8f59-85357f32bb57")
+	)
+	(fp_line
+		(start -2 -2)
+		(end -2 2)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cf198dc5-62ca-4b05-9f2e-11a01acbbc50")
+	)
+	(fp_line
+		(start -2 2)
+		(end 2 2)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ec2803ad-2017-4453-b132-e5c3199a68c5")
+	)
+	(fp_line
+		(start 2 -2)
+		(end -2 -2)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "51f27d06-ce72-47c2-b91d-95385b803d5e")
+	)
+	(fp_line
+		(start 2 2)
+		(end 2 -2)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7ff5fb05-facd-4220-ab20-682247e888b6")
+	)
+	(fp_circle
+		(center -1.85 -2.35)
+		(end -1.75 -2.35)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "5ebcc35b-3936-4190-9d07-1d0db61d8cc7")
+	)
+	(pad "1" smd custom
+		(at 0 -1.5)
+		(size 0.8 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -1.95 -0.15) (xy -1.95 0.85) (xy 1.95 0.85) (xy 1.95 -0.15) (xy 1.25 -0.75) (xy -1.25 -0.75)
+				)
+				(width 0.01)
+				(fill yes)
+			)
+		)
+		(uuid "6979cab3-b53f-4239-bdb1-756721b2e197")
+	)
+	(pad "2" smd custom
+		(at 0 1.5)
+		(size 0.8 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -1.25 0.75) (xy -1.95 0.15) (xy -1.95 -0.85) (xy 1.95 -0.85) (xy 1.95 0.15) (xy 1.25 0.75)
+				)
+				(width 0.01)
+				(fill yes)
+			)
+		)
+		(uuid "d0394b60-675b-4eaf-9bae-f54642ee68e2")
+	)
+	(embedded_fonts no)
+	(model "${FABLABS_KICAD_LIBRARY}/!fablabs-kicad-library.3dshapes/VLCF4020T-101MR26.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 90)
+		)
+	)
+)
