@@ -488,12 +488,13 @@
 		(remove_unused_layers no)
 		(uuid "9ffd915c-b941-4c04-95f8-322cc1ee0f67")
 	)
-	(pad "2" thru_hole rect
+	(pad "2" thru_hole roundrect
 		(at 2.5 0 180)
 		(size 1.4 1.4)
 		(drill 0.9)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(roundrect_rratio 0.1785714286)
 		(uuid "813570fa-4da7-4607-846d-57dbe84aadd3")
 	)
 	(embedded_fonts no)
